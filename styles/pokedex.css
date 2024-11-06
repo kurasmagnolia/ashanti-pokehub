@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-color: #FECA05 !important;
+  background-color: #feca05 !important;
 }
 
 .navbar-nav {
@@ -22,14 +22,14 @@ body {
 }
 
 .nav-link {
-  color: #FFFFFF !important;
-  font-family: 'Bebas Neue', sans-serif;
+  color: #ffffff !important;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 25px !important;
 }
 
 .nav-link i {
   font-size: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 main {
@@ -54,13 +54,13 @@ main {
 }
 
 .pokedex-header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("images/pokedex-header.jpeg");
+  background-image: url("./assets/images/pokedex-header.jpeg");
   background-size: cover;
   background-position: center;
   filter: blur(5px);
@@ -77,19 +77,19 @@ main {
 .header-h1 {
   font-size: 65px;
   font-weight: bold;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.3);
-  color: #FECA05;
+  color: #feca05;
   padding-top: 20px;
   margin: 0;
   text-align: center;
-  text-shadow: 3.5px 3.5px #2F5EA4;
+  text-shadow: 3.5px 3.5px #2f5ea4;
   padding-bottom: 0.1px;
 }
 
 .header-h1::after {
-  content: '';
+  content: "";
   display: block;
   width: 0%;
   height: 1px;
@@ -99,8 +99,8 @@ main {
 
 .text-b {
   text-align: center;
-  color: #FFFFFF;
-  font-family: 'Bruno Ace', sans-serif;
+  color: #ffffff;
+  font-family: "Bruno Ace", sans-serif;
 }
 
 .pokemon {
@@ -112,24 +112,24 @@ main {
   margin-right: 10px;
 }
 
-.searchButton{
+.searchButton {
   text-align: center;
   background-color: transparent;
-  color: #FECA05;
-  border: 2px solid #FECA05;
+  color: #feca05;
+  border: 2px solid #feca05;
   padding: 15px 25px;
   font-size: 18px;
   cursor: pointer;
   border-radius: 5px;
   transition: all 0.3s ease;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   margin-top: 0px;
 }
 
 .searchButton:hover {
-  background-color: #FECA05;
+  background-color: #feca05;
   color: #273344;
-  border-color: #FECA05;
+  border-color: #feca05;
 }
 
 /* Additional styles for stats */
@@ -141,20 +141,20 @@ main {
 #update_height {
   color: #273344;
   font-size: 18px;
-  font-family: 'Bebas Neue', sans-serif;;
+  font-family: "Bebas Neue", sans-serif;
   margin-right: 10px;
 }
 
 #res,
 #pokeId {
-  font-family: 'Bruno Ace', sans-serif;
+  font-family: "Bruno Ace", sans-serif;
 }
 
 .stats-p {
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
   font-size: 18px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .pokeSearch {
@@ -169,8 +169,8 @@ main {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
-  background-color: #FECA05;
-  border: 2px solid #FFFFFF;
+  background-color: #feca05;
+  border: 2px solid #ffffff;
   padding: 20px;
   max-width: 600px;
   border-radius: 10px;
@@ -202,17 +202,17 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #FECA05;
+  background-color: #feca05;
   height: auto;
   width: 100vw;
   font-family: "Bebas Neue", sans-serif;
   padding-top: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: auto;
 }
 
 footer hr {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   margin-top: 0;
   margin: 0;
   padding: 0;
@@ -266,8 +266,7 @@ footer hr {
 
 .socials a i {
   font-size: 1.1rem;
-  transition: color .4s ease;
-
+  transition: color 0.4s ease;
 }
 
 .socials a:hover i {
@@ -275,7 +274,7 @@ footer hr {
 }
 
 .footer-bottom {
-  background: #FECA05;
+  background: #feca05;
   width: 100vw;
   padding: 10px 0;
   text-align: center;
@@ -291,7 +290,7 @@ footer hr {
 
 .footer-bottom span {
   text-transform: uppercase;
-  opacity: .4;
+  opacity: 0.4;
   font-weight: 200;
 }
 
@@ -308,12 +307,11 @@ footer hr {
 .input-group input {
   width: 275px;
   height: 50px;
-
 }
 
 .input-group button {
   background-color: #273344;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px 15px;
   cursor: pointer;
 }

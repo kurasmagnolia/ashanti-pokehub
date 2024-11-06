@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-color: #FECA05 !important;
+  background-color: #feca05 !important;
 }
 
 .navbar-nav {
@@ -22,15 +22,15 @@ body {
 }
 
 .nav-link {
-  color: #FFFFFF !important;
-  font-family: 'Bebas Neue', sans-serif;
+  color: #ffffff !important;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 25px !important;
 }
 
 .nav-link i {
   font-size: 24px;
   /* Adjust the font size */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Change the color */
 }
 
@@ -42,25 +42,25 @@ body {
 
 /* Customize the button styles */
 .btn-outline-light {
-  color: #FECA05 !important;
+  color: #feca05 !important;
   background-color: transparent;
-  border-color: #FECA05 !important;
+  border-color: #feca05 !important;
 }
 
 .btn-outline-light:hover {
   color: #273344 !important;
-  background-color: #FECA05 !important;
-  border-color: #FECA05 !important;
+  background-color: #feca05 !important;
+  border-color: #feca05 !important;
 }
 
 /* Increase the font size and add padding to the custom buttons */
 .header-btns a {
   font-size: 20px;
   padding: 10px 20px;
-  color: #FECA05;
+  color: #feca05;
   /* Change the text color */
   background-color: transparent;
-  border: 2px solid #FECA05;
+  border: 2px solid #feca05;
   /* Add a border */
   border-radius: 5px;
   /* Optional: Add border-radius for rounded corners */
@@ -70,11 +70,10 @@ body {
 
 /* Hover effect for the custom buttons */
 .header-btns a:hover {
-  background-color: #FECA05;
+  background-color: #feca05;
   color: #273344;
   /* Change text color on hover */
 }
-
 
 main {
   flex: 1;
@@ -101,13 +100,13 @@ main {
 
 /* Add a pseudo-element for the background image with blur */
 .home-header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("images/pbattle-banner.gif");
+  background-image: url("./assets/images/pbattle-banner.gif");
   background-size: cover;
   background-position: center;
   filter: blur(10px);
@@ -127,23 +126,23 @@ main {
 .header-h1 {
   font-size: 65px;
   font-weight: bold;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.3);
   /* Adjust the alpha (fourth parameter) for transparency */
-  color: #FECA05;
+  color: #feca05;
   /* Text color */
   padding-top: 20px;
   /* Adjust padding as needed */
   margin: 0;
   /* Remove default margin */
   text-align: center;
-  text-shadow: 3.5px 3.5px #2F5EA4;
+  text-shadow: 3.5px 3.5px #2f5ea4;
   padding-bottom: 0.1px;
 }
 
 .header-h1::after {
-  content: '';
+  content: "";
   display: block;
   width: 50%;
   /* Adjust the width of the line */
@@ -158,11 +157,11 @@ main {
 .header-h3 {
   font-size: 30px;
   font-weight: bold;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.3);
   /* Adjust the alpha (fourth parameter) for transparency */
-  color: #FFFFFF;
+  color: #ffffff;
   /* Text color */
   padding-top: 2.5px;
   /* Adjust padding as needed */
@@ -170,35 +169,34 @@ main {
   margin: 0;
   /* Remove default margin */
   text-align: center;
-  text-shadow: 2.5px 2.5px #EE0E4E;
+  text-shadow: 2.5px 2.5px #ee0e4e;
 }
 
 .bd-h2 {
-  font-family: 'Bruno Ace', sans-serif;
+  font-family: "Bruno Ace", sans-serif;
   font-size: 40px;
   margin-top: 35px;
   margin-bottom: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
 .bd-h2-title {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 35px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .bd-h3 {
   font-size: 30px;
-  color: #FFFFFF;
-  font-family: 'Bebas Neue', sans-serif;
-
+  color: #ffffff;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .bd-p {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -207,7 +205,7 @@ main {
   margin: 0;
   max-width: 100%;
   height: auto;
-  border: 4px solid #FECA05;
+  border: 4px solid #feca05;
   margin-bottom: 20px;
 }
 
@@ -226,7 +224,7 @@ main {
   display: block;
   width: 100%;
   height: auto;
-  border: 4px solid #FECA05;
+  border: 4px solid #feca05;
   margin-bottom: 10px;
 }
 
@@ -234,31 +232,31 @@ main {
   padding: 10px 20px;
   font-size: 20px;
   font-family: "Bebas Neue", sans-serif;
-  color: #FECA05;
+  color: #feca05;
   background-color: transparent;
-  border: 2px solid #FECA05;
+  border: 2px solid #feca05;
   border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .image-section button:hover {
-  background-color: #FECA05;
+  background-color: #feca05;
   color: #273344;
 }
 
 .pokedex-h2 {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 35px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 35px;
   text-align: center;
 }
 
 .pokedex-h5 {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -269,18 +267,18 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #FECA05;
+  background-color: #feca05;
   height: auto;
   width: 100vw;
   font-family: "Bebas Neue", sans-serif;
   padding-top: 0px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: auto;
 }
 
 /* Temporary styling for debugging */
 footer hr {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   margin-top: 0;
   margin: 0;
   padding: 0;
@@ -332,8 +330,7 @@ footer hr {
 
 .socials a i {
   font-size: 1.1rem;
-  transition: color .4s ease;
-
+  transition: color 0.4s ease;
 }
 
 .socials a:hover i {
@@ -341,7 +338,7 @@ footer hr {
 }
 
 .footer-bottom {
-  background: #FECA05;
+  background: #feca05;
   width: 100vw;
   padding: 10px 0;
   text-align: center;
@@ -357,7 +354,7 @@ footer hr {
 
 .footer-bottom span {
   text-transform: uppercase;
-  opacity: .4;
+  opacity: 0.4;
   font-weight: 200;
 }
 
@@ -374,12 +371,11 @@ footer hr {
 .input-group input {
   width: 275px;
   height: 50px;
-
 }
 
 .input-group button {
   background-color: #273344;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px 15px;
   cursor: pointer;
 }
