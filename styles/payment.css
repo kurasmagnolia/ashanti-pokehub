@@ -1,0 +1,360 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #273344 !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #FECA05 !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 150px;
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 25px !important;
+}
+
+.nav-link i {
+  font-size: 24px;
+  /* Adjust the font size */
+  color: #FFFFFF;
+  /* Change the color */
+}
+
+main {
+  flex: 1;
+}
+
+.store-header {
+  position: relative;
+  height: 550px;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+  /* Ensure content doesn't overflow */
+  box-sizing: border-box;
+  /* Include padding and borders in the total width and height */
+}
+
+/* Add a pseudo-element for the background image with blur */
+.store-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/pokemonstore-header.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+  /* Adjust the blur amount */
+  z-index: -1;
+  /* Place it behind the text */
+}
+
+/* Additional styles for smaller screens */
+@media (max-width: 768px) {
+  .store-header {
+    height: 300px;
+    padding: 10px;
+  }
+}
+
+.header-h1 {
+  font-size: 65px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Adjust the alpha (fourth parameter) for transparency */
+  color: #FECA05;
+  /* Text color */
+  padding-top: 20px;
+  /* Adjust padding as needed */
+  margin: 0;
+  /* Remove default margin */
+  text-align: center;
+  text-shadow: 3.5px 3.5px #2F5EA4;
+  padding-bottom: 0.1px;
+}
+
+.header-h1::after {
+  content: '';
+  display: block;
+  width: 0%;
+  /* Adjust the width of the line */
+  height: 1px;
+  /* Adjust the height of the line */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* Transparent color */
+  margin: 8px auto;
+  /* Adjust margin for spacing */
+}
+
+.scroll-text {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+/* FOOTER CSS */
+footer {
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FECA05;
+  height: auto;
+  width: 100vw;
+  font-family: "Bebas Neue", sans-serif;
+  padding-top: 0px;
+  color: #FFFFFF;
+  margin-top: auto;
+}
+
+/* Temporary styling for debugging */
+footer hr {
+  border: 2px solid #FFFFFF;
+  margin-top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+}
+
+.contactinfo-li {
+  list-style: none;
+  font-family: "Orbitron", sans-serif;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+  color: #273344;
+}
+
+.footer-bottom {
+  background: #FECA05;
+  width: 100vw;
+  padding: 10px 0;
+  text-align: center;
+  border: black;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  color: black;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+.newsletter-section {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-section form {
+  display: flex;
+  gap: 10px;
+}
+
+.input-group input {
+  width: 275px;
+  height: 50px;
+
+}
+
+.input-group button {
+  background-color: #273344;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.footer-h3 {
+  margin-right: 10px;
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+}
+
+.contactinfo-h3 {
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+}
+
+.footer-bottom {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+footer input {
+  font-family: sans-serif;
+}
+
+.input placeholder {
+  font-family: "Bebas Neue" sans-serif;
+}
